@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+  <title>CAR - COST - CALCULATOR </title>
+  <link rel="stylesheet" href="css/Hw4.css">
+  </head>
+  <body>
+  <div id  = "Image">  
+    <h1>
+      CAR COST CALCULATOR
+    </h1>
+    <hr class="title_bar"> 
+   <div class = "header">
+    <div class = "container">
+      <div class="common_info">
+        <div id = "formInput">
+          <form id = "form" method = "GET" onSubmit = "return dynamicTable();">
+          <br>
+        <div>
+          <label> Price Starting Value : </label>
+          <input id="price_start_value" type='number' value="0">
+        </div>
+        <br>
+        <div>
+          <label> Price Ending Value : </label>
+          <input id="price_end_value" type='number' value="0">
+        </div>
+        <br>
+        <div>
+          <label> Miles per Gallon Start Value : </label>
+          <input id="mpg_start_value" type='number' value="0">
+        </div>
+        <br>
+        <div>
+          <label> Miles per Gallon End Value : </label>
+          <input id = "mpg_end_value" type='number' value="0">
+        </div>
+        <br>
+        <div>
+            <label> Miles driven per year : </label>
+            <input id = "miles_driven" type='number' value="0">
+        </div>
+        <br>
+        <div>
+            <label> Months : </label>
+            <input id = "months" type='number' value="0">
+        </div>
+        <br>
+        <div>
+            <label> Down Payment % : </label>
+            <input id = "down_payment" type='number' value="0">
+        </div>
+        <br>
+        <div>
+            <label> Interest % : </label>
+            <input id = "interest" type='number' value="0">
+        </div>
+        <br>
+        <div>
+            <label> Incentives $ : </label>
+            <input id = "incentives" type='number' value="0">
+        </div>
+        <br>
+        <div>
+            <label> Current Gallon Price $ : </label>
+            <input id = "gallon_price" type='number' value="0">
+        </div>
+        <br>
+        <br>
+       </form>
+     <button id="btn_create_table" type="button">Submit</button>
+     
+     <br>
+     <br>
+     <div id="table"></div>
+    </div>
+   </div>
+  </div>
+  </div>
+  </div>
+
+  <script type="text/javascript" src="Hw4.js"></script>
+
+</body>
+</html>

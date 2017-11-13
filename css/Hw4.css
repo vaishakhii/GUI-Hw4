@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/**
+ Name: Vaishakhi Patel, vpatel@cs.uml.edu
+ Computer Science Department, UMass Lowell
+ Comp.4610, GUI Programming I
+ File:
+ Created: 09-Nov-2017
+ Last updated by VP: 12-Nov-2017 23:00
+ **/
+
+/**
+ This is where I'm styling the body of my project by adding a background image
+ **/
+body{
+    background-image: url("polonez_car.png");
+    width: 950px;
+    margin: auto;
+    padding: 5px;
+    
+}
+
+/**
+ This is where I'm styling the document to have a white background
+ **/
+#Image{
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.container{
+    width: 850px;
+    margin: auto;
+}
+
+.content{
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dealer_offer {
+    width: 400px;
+}
+
+/**
+ This is where I styled the title bar (below the title)
+ **/
+.title_bar {
+    
+    width: auto;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+}
+
+.common_info input{
+    margin-left: 30px;
+}
+
+/**
+ I've made these adjustments beacause I want all textboxes to be aligned together
+ **/
+#price_start_value{
+    margin-left: 77px !important;
+}
+
+#price_end_value{
+    margin-left: 83px !important;
+}
+
+#mpg_start_value{
+    margin-left: 24px !important;
+}
+
+
+#miles_driven {
+    margin-left: 69px !important;
+}
+
+#months {
+    margin-left: 157px !important;
+}
+
+#down_payment {
+    margin-left: 88px !important;
+}
+
+#interest {
+    margin-left: 137px !important;
+}
+
+#incentives {
+    margin-left: 126px !important;
+}
+
+#gallon_price {
+    margin-left: 59px !important;
+}
+
+/**
+ This is where I've styled my table
+ **/
+
+#table{
+    
+    font-size:15px;
+    margin: 0 auto 0 auto;
+    text-align:center;
+    border: 2px;
+    border-width:5px;
+    border-style:inset;
+    
+}
+
+#rowHeader, #colHeader, .cells {
+    padding: 10px;
+    text-align: center;
+}
+
+td.cells:hover {
+    background-color: #ddd;
+    transition: all 0.2s ease 0s;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+td, th {
+    border: 1px solid;
+}
+
+
+
